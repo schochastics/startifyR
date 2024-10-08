@@ -1,0 +1,48 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+    collapse = TRUE,
+    comment = "#>",
+    fig.path = "man/figures/README-",
+    out.width = "100%"
+)
+```
+
+# startifyR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+startifyR is similar to [cowsay](https://github.com/sckott/cowsay), just with different quotes and ascii art.
+
+## Installation
+
+You can install the development version of startifyR from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("schochastics/startifyR")
+```
+
+## Example
+
+```{r example}
+library(startifyR)
+startify()
+```
+
+```{r example2}
+startify()
+```
+
+If you want to have a different quote everytime you start an R console, put
+```r
+startifyR::startify()
+```
+
+in `~/.Rprofile`.
