@@ -42,7 +42,7 @@ startify()
 startify()
 ```
 
-If you want to have a different quote everytime you start an R console, put
+If you want to have a different quote with art every time you start an R console, put
 ```r
 if (interactive()) {
     startifyR::startify()

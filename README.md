@@ -60,38 +60,26 @@ startify()
 
 ``` r
 startify()
+#> +------------------------------------------------------------+
+#> |Remember the big picture.                                   |
+#> |Don't get so engrossed in the details that you forget to    |
+#> |check what's happening around you.                          |
+#> +------------------------------------------------------------+
+#>                    o
+#>                      o
+#>                                     ____
+#>                                   /` .---.
+#>                                  |  /  o o\
+#>                                 _\  `.     |_
+#>                                 \>\   )    .-`
+#>                                    `-` _~.`
+#>                                   ___/ /__
+#>                            jgs  /(( `  ` ))\
+#>                                /  `======`  \
 ```
 
-    #> +----------------------------------------------------------------+
-    #> |What one programmer can do in one month, two programmers can    |
-    #> |do in two months.                                               |
-    #> |                                           - Frederick P. Brooks|
-    #> +----------------------------------------------------------------+
-    #>                     o
-    #>                       o
-    #>                                      .--`````````--.
-    #>                                   .`      .---.      `.
-    #>                                  /    .-----------.    \
-    #>                                 /        .-----.        \
-    #>                                 |       .-.   .-.       |
-    #>                                 |      /   \ /   \      |
-    #>                                  \    | .-. | .-. |    /
-    #>                                   `-._| | | | | | |_.-`
-    #>                                       | `-` | `-` |
-    #>                                        \___/ \___/
-    #>                                     _.-`  /   \  `-._
-    #>                                   .` _.--|     |--._ `.
-    #>                                   ` _...-|     |-..._ `
-    #>                                          |     |
-    #>                                          `.___.`
-    #>                                            | |
-    #>                                           _| |_
-    #>                                          /\( )/\
-    #>                                         /  ` `  \
-    #>                                        | |     | |
-
-If you want to have a different quote everytime you start an R console,
-put
+If you want to have a different quote with art every time you start an R
+console, put
 
 ``` r
 if (interactive()) {
