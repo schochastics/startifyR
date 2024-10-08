@@ -4,6 +4,8 @@
 # startifyR
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/schochastics/startifyR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/schochastics/startifyR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 startifyR is similar to [cowsay](https://github.com/sckott/cowsay), just
