@@ -16,12 +16,13 @@ box <- function(x, width = 60) {
     c(top, quote, bottom, thought)
 }
 
-#' Create a random start message
+#' Create a random quote with an ascii character
+#' @param width width of the ascii art, should not exceed terminal width
 #' @export
-startify <- function() {
+startify <- function(width = 60) {
     nquotes <- length(startifyR::quotes)
     nart <- length(startifyR::ascii_art)
-    q <- box(startifyR::quotes[[sample(seq_len(nquotes), 1)]])
+    q <- box(startifyR::quotes[[sample(seq_len(nquotes), 1)]], width = width)
     pos <- floor((max(nchar(q))) / 2) - 4
     art <- startifyR::ascii_art[[sample(seq_len(nart), 1)]]
     wspace <- paste0(rep(" ", pos), collapse = "")

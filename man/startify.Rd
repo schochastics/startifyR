@@ -2,10 +2,13 @@
 % Please edit documentation in R/startifyR.R
 \name{startify}
 \alias{startify}
-\title{Create a random start message}
+\title{Create a random quote with an ascii character}
 \usage{
-startify()
+startify(width = 60)
+}
+\arguments{
+\item{width}{width of the ascii art, should not exceed terminal width}
 }
 \description{
-Create a random start message
+Create a random quote with an ascii character
 }
