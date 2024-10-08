@@ -4,10 +4,14 @@
 \alias{startify}
 \title{Create a random quote with an ascii character}
 \usage{
-startify(width = 60)
+startify(width = 60, text_color = NULL, art_color = NULL)
 }
 \arguments{
 \item{width}{width of the ascii art, should not exceed terminal width}
+
+\item{text_color}{color of the quote}
+
+\item{art_color}{color of the ascii art}
 }
 \description{
 Create a random quote with an ascii character

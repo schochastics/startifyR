@@ -1,4 +1,4 @@
-box <- function(x, width = 60) {
+.box <- function(x, width = 60) {
     x <- unlist(strsplit(stringr::str_wrap(x, width = width), "\n"))
     n <- max(nchar(x))
 
@@ -18,14 +18,25 @@ box <- function(x, width = 60) {
 
 #' Create a random quote with an ascii character
 #' @param width width of the ascii art, should not exceed terminal width
+#' @param text_color color of the quote
+#' @param art_color color of the ascii art
 #' @export
-startify <- function(width = 60) {
+startify <- function(width = 60, text_color = NULL, art_color = NULL) {
+    width <- pmin(width, cli::console_width())
     nquotes <- length(startifyR::quotes)
     nart <- length(startifyR::ascii_art)
-    q <- box(startifyR::quotes[[sample(seq_len(nquotes), 1)]], width = width)
+    q <- .box(startifyR::quotes[[sample(seq_len(nquotes), 1)]], width = width)
     pos <- floor((max(nchar(q))) / 2) - 4
     art <- startifyR::ascii_art[[sample(seq_len(nart), 1)]]
     wspace <- paste0(rep(" ", pos), collapse = "")
     animal <- paste0(wspace, art)
-    cat(q, animal, sep = "\n")
+    if (is.null(text_color)) {
+        text_color <- sample(grDevices::colors(), 1)
+    }
+    if (is.null(art_color)) {
+        art_color <- sample(grDevices::colors(), 1)
+    }
+    text_style <- cli::make_ansi_style(text_color)
+    art_style <- cli::make_ansi_style(art_color)
+    cat(text_style(q), art_style(animal), sep = "\n")
 }

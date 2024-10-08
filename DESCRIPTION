@@ -1,10 +1,10 @@
 Package: startifyR
-Title: Start message for R terminal
+Title: R terminal startup messages
 Version: 1.0.0
 Authors@R: 
     person("David", "Schoch", , "david@schochastics.net", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-2952-4812"))
-Description: Start message for the R terminal 
+Description: Quotes from ascii art characters. Mainly 'useful' as R terminal startup messages 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -14,3 +14,6 @@ Depends:
 LazyData: true
 URL: https://github.com/schochastics/startifyR
 BugReports: https://github.com/schochastics/startifyR/issues
+Imports: 
+    cli,
+    stringr
