@@ -8,8 +8,9 @@
 
 startifyR is similar to [cowsay](https://github.com/sckott/cowsay), just
 with different quotes and ascii art.  
-Inspired by
-[startify](https://blog.merlinsbeard.ai/how-to-show-an-ascii-art-welcome-screen-at-the-top-of-the-vim-terminal/).
+Inspired by [vim-startify](https://github.com/mhinz/vim-startify) and
+this [blog
+post](https://blog.merlinsbeard.ai/how-to-show-an-ascii-art-welcome-screen-at-the-top-of-the-vim-terminal/).
 
 ## Installation
 
