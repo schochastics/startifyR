@@ -294,10 +294,6 @@ quotes <- list(
         "It doesn't really matter whether the bug is your fault or someone else's - it is still your problem, and it still needs to be fixed."
     ),
     c(
-        r"["select" isn't broken.]", "",
-        "It is rare to find a bug in the OS or the compiler, or even a third-party product or library. The bug is most likely in the application."
-    ),
-    c(
         "Learn a text manipulation language.", "",
         "You spend a large part of each day working with text. Why not have the computer do some of it for you?"
     ),
@@ -402,10 +398,6 @@ quotes <- list(
     c(
         "Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.",
         "", "- Alan Kay"
-    ),
-    c(
-        r"[I've finally learned what "upward compatible" means. It means we get to keep all our old mistakes.]",
-        "", "- Dennie van Tassel"
     ),
     c(
         "There are two major products that come out of Berkeley: LSD and UNIX. We don't believe this to be a coincidence.",
@@ -528,7 +520,13 @@ quotes <- list(
     c(
         "What one programmer can do in one month, two programmers can do in two months.",
         "", "- Frederick P. Brooks"
-    )
+    ),
+    c("The computer was born to solve problems that did not exist before", "", "- Bill Gates"),
+    c("Simplicity, carried to the extreme, becomes elegance.", "", "- Jon Franklin"),
+    c("A program is never less than 90% complete, and never more than 95% complete.", "", "- Terry Baker"),
+    c("A good programmer is someone who always looks both ways before crossing a one-way street", "", "- Doug Linder"),
+    c("Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.", "", "- Linus Torvalds"),
+    c("Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code", "", "- Dan Salomon")
 )
 
 ascii_art <- list(
