@@ -93,7 +93,9 @@ If you want to have a different quote everytime you start an R console,
 put
 
 ``` r
-startifyR::startify()
+if (interactive()) {
+    startifyR::startify()
+}
 ```
 
 in `~/.Rprofile`.
