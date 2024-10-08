@@ -33,6 +33,7 @@ pak::pak("schochastics/startifyR")
 
 ```{r example}
 library(startifyR)
+set.seed(12345)
 startify()
 ```
 
