@@ -526,7 +526,8 @@ quotes <- list(
     c("A program is never less than 90% complete, and never more than 95% complete.", "", "- Terry Baker"),
     c("A good programmer is someone who always looks both ways before crossing a one-way street", "", "- Doug Linder"),
     c("Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.", "", "- Linus Torvalds"),
-    c("Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code", "", "- Dan Salomon")
+    c("Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code", "", "- Dan Salomon"),
+    c("Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway", "", "-  Andrew S. Tanenbaum")
 )
 
 ascii_art <- list(
